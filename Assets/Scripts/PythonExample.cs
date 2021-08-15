@@ -21,10 +21,10 @@ public class PythonExample : MonoBehaviour
 		//Path to the folder of test.py
 		searchPaths.Add (Application.dataPath);
 		//Path to the Python standard library
-		searchPaths.Add (Application.dataPath + @"\StreamingAssets"  + @"\Lib\");
+		searchPaths.Add (Application.dataPath + @"/StreamingAssets"  + @"/Lib/");
 		engine.SetSearchPaths (searchPaths);
 
-		dynamic py = engine.ExecuteFile (Application.dataPath + @"\StreamingAssets" + @"\Python\test.py");
+		dynamic py = engine.ExecuteFile (Application.dataPath + @"/StreamingAssets" + @"/Python/test.py");
 		dynamic test = py.Test ("Codemaker");
 		greeting.text = "Greeting: " + test.display ();
 		randomNumber.text = "Random Number: " + test.random_number (1, 5);
