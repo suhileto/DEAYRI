@@ -352,7 +352,7 @@ MonoBehaviour:
   m_VertexBufferAutoSizeReduction: 0
   m_useMaxVisibleDescender: 1
   m_pageToDisplay: 1
-  m_margin: {x: -600.5794, y: -91.69767, z: -557.9999, w: 0}
+  m_margin: {x: -612.71436, y: -91.69767, z: -557.9999, w: 0}
   m_isUsingLegacyAnimationComponent: 0
   m_isVolumetricText: 0
   m_hasFontAssetChanged: 0
@@ -603,7 +603,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   caption: {fileID: 659352374}
-  subtitle: 
+  subtitle: "Sa arkad\u015Flar asdsa asd asd"
   spacesCount: 20
   subtitleCount: 188
 --- !u!1 &1598320178

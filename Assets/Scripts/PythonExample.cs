@@ -16,7 +16,6 @@ public class PythonExample : MonoBehaviour
 		var engine = Python.CreateEngine ();
 
 		ICollection<string> searchPaths = engine.GetSearchPaths ();
-
 		
 		//Path to the folder of test.py
 		searchPaths.Add (Application.dataPath);
@@ -28,8 +27,6 @@ public class PythonExample : MonoBehaviour
 		dynamic test = py.Test ("Codemaker");
 		greeting.text = "Greeting: " + test.display ();
 		randomNumber.text = "Random Number: " + test.random_number (1, 5);
-		
-
 	}
 
 }
