@@ -15,7 +15,7 @@ public class subtitleListener : MonoBehaviour
     Thread receiveThread;
     TcpClient client;
     TcpListener listener;
-    int port = 5067;
+    int port = 61534;
     string receivedText = "", prevText = "";
     int sameCount = 0;
 

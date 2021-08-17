@@ -122,11 +122,11 @@ if __name__ == '__main__':
                         default=False)
     parser.add_argument("--lang_code", type=str, 
                         help="the language code of your language",
-                        default="zh-tw")
+                        default="tr-TR")
     args = parser.parse_args()
 
     if args.connect:
-        address = ('127.0.0.1', 5067)
+        address = ('127.0.0.1', 61534)
         sock = socket.socket(socket.AF_INET, socket.SOCK_STREAM)
         sock.connect(address)
     else:
