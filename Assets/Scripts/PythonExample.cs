@@ -24,9 +24,9 @@ public class PythonExample : MonoBehaviour
 		engine.SetSearchPaths (searchPaths);
 
 		dynamic py = engine.ExecuteFile (Application.dataPath + @"/StreamingAssets" + @"/Python/test.py");
-		dynamic test = py.Test ("Codemaker");
+		/*dynamic test = py.Test ("Codemaker");
 		greeting.text = "Greeting: " + test.display ();
-		randomNumber.text = "Random Number: " + test.random_number (1, 5);
+		randomNumber.text = "Random Number: " + test.random_number (1, 5);*/
 	}
 
 }
