@@ -735,7 +735,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: a931d5e79f562a84e9ca245d8f235f4a, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  credentialsPath: C:/Users/talla/Documents/GitHub/DEAYRI/solid-mountain-323117-23c33e1c114c.json
+  credentialsPath: Documents/GitHub/DEAYRI/solid-mountain-323117-23c33e1c114c.json
   saveFile: C:/Users/talla/Documents/GitHub/DEAYRI/dump.wav
 --- !u!4 &2054164151
 Transform:
